@@ -10,17 +10,17 @@ PrefabInstance:
     - target: {fileID: 3953415995610162168, guid: 90b49f3043623a245a480fd8a9f822be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8834069
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3953415995610162168, guid: 90b49f3043623a245a480fd8a9f822be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5602815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3953415995610162168, guid: 90b49f3043623a245a480fd8a9f822be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.47878852
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3953415995610162168, guid: 90b49f3043623a245a480fd8a9f822be,
         type: 3}
@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 3953415995610162169, guid: 90b49f3043623a245a480fd8a9f822be,
         type: 3}
       propertyPath: m_Name
-      value: Weapon
+      value: Ballista
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90b49f3043623a245a480fd8a9f822be, type: 3}

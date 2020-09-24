@@ -89,7 +89,7 @@ PrefabInstance:
     - target: {fileID: 1794869397059164875, guid: c398b39c4814572478b2e3e2183c2e97,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.241
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1794869397059164875, guid: c398b39c4814572478b2e3e2183c2e97,
         type: 3}
@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: 1794869397059164876, guid: c398b39c4814572478b2e3e2183c2e97,
         type: 3}
       propertyPath: m_Name
-      value: Enemy (2)
+      value: Red
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c398b39c4814572478b2e3e2183c2e97, type: 3}
