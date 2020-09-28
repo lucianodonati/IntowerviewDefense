@@ -54,12 +54,11 @@ namespace Core.Grid.Tiles
         private SpawnedEnemies spawnedEnemiesSO = null;
 
         private Transform currentTarget = null;
+
+        #region Target Acquisition
 #if UNITY_EDITOR
         private Vector3 targetLocation;
 #endif
-
-        #region Target Acquisition
-
         #endregion
 
         private void Start()
