@@ -19,10 +19,6 @@ namespace Core.Enemies
 
         private Vector2 spawnRate = new Vector2(1, 5);
 
-        private void Awake()
-        {
-            spawnedEnemiesSO.spawnedEnemies.Clear();
-        }
 
         private void Start()
         {
@@ -51,6 +47,11 @@ namespace Core.Enemies
         {
             spawnedEnemiesSO.spawnedEnemies.Remove(toBeKilled);
             Destroy(toBeKilled.gameObject);
+        }
+
+        private void OnDestroy()
+        {
+            spawnedEnemiesSO.spawnedEnemies.Clear();
         }
     }
 }
