@@ -16,6 +16,5 @@ namespace Core.Data
         [Range(.1f, 5)]
         public float shootEvery = 1;
         
-        public Vector2 forceMinMax = new Vector2(1, 5);
     }
 }
