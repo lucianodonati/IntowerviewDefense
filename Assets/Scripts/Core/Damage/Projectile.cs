@@ -1,7 +1,5 @@
-﻿using System;
-using Core.Enemies;
+﻿using Core.Enemies;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace Core.Damage
 {
