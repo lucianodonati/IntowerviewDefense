@@ -44,7 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033c23b5d80c4c679f136564b1eefad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  turretData: {fileID: 11400000, guid: 805c33774c140b042ad9bf7e6b4dea30, type: 2}
+  spawnedEnemiesSO: {fileID: 11400000, guid: d851f149b5569314f92f6a006e01de72, type: 2}
+  projectilePrefab: {fileID: 5816290357765898708, guid: 70be34e0553c24e4483fb3daa38350de,
+    type: 3}
+  forceMinMax: {x: 1, y: 5}
 --- !u!1 &3953415995828239530
 GameObject:
   m_ObjectHideFlags: 0
