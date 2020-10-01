@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,7 +15,8 @@ namespace Core.Enemies
         private GameObject boomPrefab = null;
 
         public Transform[] waypoints = null;
-        private int currentGoal = 0;
+
+        private int currentGoal = 1;
 
         private int health = 10;
 
@@ -29,6 +29,7 @@ namespace Core.Enemies
                 if (health <= 0)
                 {
                     spawner.DestroyEnemy(this);
+                    Instantiate(boomPrefab, transform.position, Quaternion.identity);
                 }
             }
         }
@@ -62,14 +63,6 @@ namespace Core.Enemies
 
             Debug.LogError("YOU LOSE, THE INTERVIWER WINS! MUAHAHAHAH");
             Debug.Break();
-        }
-
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.CompareTag("Projectile"))
-            {
-                Instantiate(boomPrefab, transform.position, Quaternion.identity);
-            }
         }
     }
 }
