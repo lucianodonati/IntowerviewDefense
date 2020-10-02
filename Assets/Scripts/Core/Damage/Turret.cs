@@ -10,7 +10,7 @@ namespace Core.Damage
     {
         [SerializeField]
         private TurretData turretData = null;
-        
+
         [SerializeField]
         private SpawnedEnemies spawnedEnemiesSO = null;
 
@@ -19,7 +19,7 @@ namespace Core.Damage
 
         public Vector2 forceMinMax = new Vector2(2, 5);
 
-       
+
         private Transform currentTarget = null;
 
 
@@ -78,8 +78,9 @@ namespace Core.Damage
                 newProjectile.transform.position = transform.position;
 
                 newProjectile.Damage = turretData.damage;
-                newProjectile.ShootInDirection(directionToEnemy,
-                    directionToEnemy.magnitude * Random.Range(forceMinMax.x, forceMinMax.y));
+                newProjectile.ShootInDirection(
+                    directionToEnemy + Vector3.up * Random.Range(forceMinMax.x, forceMinMax.y),
+                    directionToEnemy.magnitude);
             }
         }
 
