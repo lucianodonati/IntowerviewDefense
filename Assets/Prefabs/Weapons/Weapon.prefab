@@ -48,7 +48,7 @@ MonoBehaviour:
   spawnedEnemiesSO: {fileID: 11400000, guid: d851f149b5569314f92f6a006e01de72, type: 2}
   projectilePrefab: {fileID: 5816290357765898708, guid: 70be34e0553c24e4483fb3daa38350de,
     type: 3}
-  forceMinMax: {x: 1, y: 5}
+  forceMinMax: {x: 1, y: 2}
 --- !u!1 &3953415995828239530
 GameObject:
   m_ObjectHideFlags: 0
