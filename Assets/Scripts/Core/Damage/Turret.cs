@@ -17,7 +17,7 @@ namespace Core.Damage
         [SerializeField]
         private Projectile projectilePrefab = null;
 
-        public Vector2 forceMinMax = new Vector2(2, 5);
+        public Vector2 forceMinMax = new Vector2(1, 3);
 
 
         private Transform currentTarget = null;
